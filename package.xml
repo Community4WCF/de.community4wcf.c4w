@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 930 2010-02-15 13:01:02Z TobiasH87 $ -->
+<package name="de.community4wcf.c4w" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Community4WCF (C4W) -  Standalone Application]]></packagename>
+		<packagename language="de"><![CDATA[Community4WCF (C4W) - Endanwendung]]></packagename>
+		<packagename language="de-informal"><![CDATA[Community4WCF (C4W) - Endanwendung]]></packagename>
+		<packagedescription><![CDATA[This is a Standalone Application.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Dies ist eine Endanwendung.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Dies ist eine Endanwendung.]]></packagedescription>
+		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
+		<standalone>1</standalone>
+		<version>2.0.2</version> <!-- codename: C4W v2 -->
+		<date>2012-02-03</date>
+	</packageinformation>
+
+	<!-- Icons by Everaldo: Crystal Project: http://www.everaldo.com/crystal/ ; agt_home.png , Volume Manager.png -->
+	
+	<licenseinformation>
+		<license><![CDATA[LGPL]]></license>
+		<licenseURL><![CDATA[http://www.gnu.org/licenses/lgpl.html]]></licenseURL>
+	</licenseinformation>
+	<authorinformation>
+		<author><![CDATA[TobiasH]]></author>
+		<authorURL><![CDATA[https://www.woltlab.com/forum/index.php?page=User&userID=1331470]]></authorURL>
+	</authorinformation>
+
+	<requiredpackages>
+		<!-- basics -->
+		<requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
+		
+		<requiredpackage minversion="1.1.4">com.woltlab.wcf.data.cronjobs</requiredpackage>
+		<requiredpackage minversion="1.0.3">com.woltlab.wcf.data.feed.reader</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.data.image</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.data.image.captcha</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.imageViewer</requiredpackage>
+		<!-- page system -->
+		<requiredpackage minversion="1.1.1">com.woltlab.wcf.data.page.headerMenu</requiredpackage>
+		<requiredpackage minversion="1.1.3">com.woltlab.wcf.system.style</requiredpackage>
+		<requiredpackage minversion="1.1.1">com.woltlab.wcf.data.page</requiredpackage>
+		<requiredpackage minversion="1.1.3">com.woltlab.wcf.data.help</requiredpackage>		
+		<!-- message -->
+		<requiredpackage minversion="1.1.2">com.woltlab.wcf.data.message</requiredpackage>
+		<requiredpackage minversion="1.1.7">com.woltlab.wcf.data.message.attachment</requiredpackage>
+		<requiredpackage minversion="1.1.6">com.woltlab.wcf.data.message.bbcode</requiredpackage>
+		<requiredpackage minversion="1.1.4 pl 4">com.woltlab.wcf.form.message.wysiwyg</requiredpackage>
+		<requiredpackage minversion="1.0.4">com.woltlab.wcf.tagging</requiredpackage>
+		<!-- user profile -->
+		<requiredpackage minversion="1.1.5">com.woltlab.wcf.form.user</requiredpackage>
+		<requiredpackage minversion="1.1.6">com.woltlab.wcf.page.user.profile</requiredpackage>
+		<!-- messages -->
+		<requiredpackage minversion="1.1.4">com.woltlab.wcf.data.message.poll</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.data.message.censorship</requiredpackage>
+		<requiredpackage minversion="1.1.3">com.woltlab.wcf.form.message</requiredpackage>
+		<requiredpackage minversion="1.1.1 pl 1">com.woltlab.wcf.data.message.search</requiredpackage>
+		<requiredpackage minversion="1.0.2">com.woltlab.wcf.message.sidebar</requiredpackage>
+		<requiredpackage minversion="1.0.2">com.woltlab.wcf.data.message.search.tagging</requiredpackage>
+		<!--
+		<requiredpackage minversion="1.0.0">com.woltlab.wcf.rating</requiredpackage>
+		<requiredpackage minversion="1.0.1">com.woltlab.wcf.socialBookmarks</requiredpackage>
+		-->
+		<!-- c4w packages -->
+		<!--<requiredpackage minversion="2.0.2" file="requirements/de.community4wcf.c4w.core.tar">de.community4wcf.c4w.core</requiredpackage>-->
+	</requiredpackages>
+	
+	<optionalpackages>
+		<optionalpackage file="optionals/de.community4wcf.c4w.box.tar">de.community4wcf.c4w.box</optionalpackage>
+		<optionalpackage file="optionals/de.community4wcf.c4w.welcomeback.tar">de.community4wcf.c4w.welcomeback</optionalpackage>
+		<optionalpackage file="optionals/de.community4wcf.c4w.statsowninfo.tar">de.community4wcf.c4w.statsowninfo</optionalpackage>
+		<optionalpackage file="optionals/de.community4wcf.c4w.extensionKit.tar">de.community4wcf.c4w.extensionKit</optionalpackage>
+		<optionalpackage file="optionals/de.community4wcf.c4w.wio.tar">de.community4wcf.c4w.wio</optionalpackage>
+		<optionalpackage file="optionals/de.community4wcf.c4w.wwo.tar">de.community4wcf.c4w.wwo</optionalpackage>
+		<!--
+		<optionalpackage file="optionals/de.community4wcf.wcf.page.legalNotice.tar">de.community4wcf.wcf.page.legalNotice</optionalpackage>
+		<optionalpackage file="optionals/de.community4wcf.c4w.brandingfree.tar">de.community4wcf.c4w.brandingfree</optionalpackage>
+		<optionalpackage file="optionals/de.community4wcf.contentPage.tar">de.community4wcf.contentPage</optionalpackage>
+		-->
+	</optionalpackages>
+
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<sql>install.sql</sql>
+		<script>acp/install.php</script>
+		<!-- <style default="true">woltlab-basic-style.tgz</style> -->
+		<!-- config -->
+		<options>xml/options.xml</options>
+		<pagemenu>xml/pagemenu.xml</pagemenu>
+		<groupoptions>xml/groupoptions.xml</groupoptions>
+		<feedsource>xml/feedsource.xml</feedsource>
+		<pagelocation>xml/pagelocation.xml</pagelocation>
+		<cronjobs>xml/cronjobs.xml</cronjobs>
+		<help>xml/help.xml</help>
+		<!-- languages -->
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="2.0.*">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<acptemplates>acptemplates.tar</acptemplates>
+		<!-- config -->
+		<options>xml/options.xml</options>
+		<pagemenu>xml/pagemenu.xml</pagemenu>
+		<groupoptions>xml/groupoptions.xml</groupoptions>
+		<feedsource>xml/feedsource.xml</feedsource>
+		<pagelocation>xml/pagelocation.xml</pagelocation>
+		<cronjobs>xml/cronjobs.xml</cronjobs>
+		<help>xml/help.xml</help>
+		<!-- languages -->
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+	</instructions>
+</package>

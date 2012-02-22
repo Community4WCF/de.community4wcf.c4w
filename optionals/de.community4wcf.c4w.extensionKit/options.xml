@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 1301 2010-04-25 13:33:41Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<options>
+			<option name="users_online_record">
+				<categoryname>general</categoryname>
+				<optiontype>integer</optiontype>
+				<hidden>1</hidden>
+			</option>
+			<option name="users_online_record_time">
+				<categoryname>general</categoryname>
+				<optiontype>integer</optiontype>
+				<hidden>1</hidden>
+			</option>
+			<option name="index_enable_online_list">
+				<categoryname>c4w.index.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<options>module_users_online</options>
+			</option>
+			<option name="users_online_record_no_guests">
+				<categoryname>c4w.index.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_users_online</options>
+			</option>
+			<option name="index_enable_users_online_legend">
+				<categoryname>c4w.index.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_users_online</options>
+			</option>
+			<option name="category_list_enable_online_list">
+				<categoryname>c4w.index.categories</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<options>module_users_online</options>
+			</option>
+			<option name="category_enable_online_list">
+				<categoryname>c4w.category.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<options>module_users_online</options>
+			</option>
+			<option name="entry_enable_online_list">
+				<categoryname>c4w.entry.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<options>module_users_online</options>
+			</option>
+		</options>
+	</import>
+</data>

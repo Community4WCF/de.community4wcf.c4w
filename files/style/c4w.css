@@ -1,0 +1,19 @@
+
+/* ### -- -- -- -- -- Special C4W Styles -- -- -- -- -- ### */
+
+/* 
+
+File: c4w.css
+Package: de.community4wcf.c4w
+
+*/
+
+.index {
+	width: 100%;
+	text-align: center;
+}
+
+.index img{
+	margin-left: auto;
+	margin-right: auto;
+}

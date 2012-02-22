@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1668 2011-01-09 18:37:34Z TobiasH87 $ -->
+<language languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.c4w.index.statsowninfo"><![CDATA[Additional "Box"]]></item>
+		<item name="wcf.acp.option.category.c4w.index.statsowninfo.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable"><![CDATA[Additional "Box" Show]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable.description"><![CDATA[If an additional "box" are displayed in the stats?]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_icon"><![CDATA[Icon]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_icon.description"><![CDATA[Enter the name of the icon, this must be in png- format in the icon directory (from the c4w) lie. Example: For infoM.png enter info.]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_title"><![CDATA[Title]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_title.description"><![CDATA[Enter the title of "Box", eg Information. The use of language variable is possible, eg c4w.index.statsowninfo.title .]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_content"><![CDATA[Content]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_content.description"><![CDATA[Here you can determine the contents of the "box". The use of language variable is possible, eg c4w.index.statsowninfo.content .]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_smiley"><![CDATA[Smileys use]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_smiley.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_html"><![CDATA[HTML use]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_html.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_bbcodes"><![CDATA[BBCodes use]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_bbcodes.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_link_enable"><![CDATA[Link enable?]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_link_enable.description"><![CDATA[Do you want the title of the additional "box" link e.g. to more information?, then enable this option.]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_link"><![CDATA[Link]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_link.description"><![CDATA[Here are your desired link enter, e.g index.php?page=Help oder index.php?page=Partner]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.c4w.canViewStatsOwnInfo"><![CDATA[Can additional "box" see]]></item>
+		<item name="wcf.acp.group.option.user.c4w.canViewStatsOwnInfo.description"><![CDATA[]]></item>
+	</category>
+	<category name="c4w.index">
+		<item name="c4w.index.statsowninfo.title"><![CDATA[Information:]]></item>
+		<item name="c4w.index.statsowninfo.content"><![CDATA[We have no information available in your language!]]></item>
+	</category>
+</language>

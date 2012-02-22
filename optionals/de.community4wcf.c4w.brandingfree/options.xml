@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<!-- $Id: options.xml 1300 2010-04-25 12:48:14Z TobiasH87 $ -->
+<data>
+	<import>
+		<options>
+			<!-- BrandingFree -->
+			<option name="c4w_brandingfree">
+				<categoryname>c4w.index.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<hidden>1</hidden>
+				<!-- <showorder>6</showorder> -->
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de-informal.xml 936 2010-02-15 13:31:21Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
+	<category name="c4w.acp">
+		<item name="c4w.acp.jumpToC4W"><![CDATA[Zu C4W]]></item>
+	</category>
+	
+	<category name="c4w.acp">
+		<item name="c4w.acp.index"><![CDATA[Community4WCF (C4W) Administrationsoberfläche]]></item>
+		<item name="c4w.acp.index.description"><![CDATA[]]></item>
+		<item name="c4w.acp.index.searchUsers"><![CDATA[Schnellsuche nach Benutzern]]></item>
+
+		<item name="c4w.acp.index.updates"><![CDATA[Updates]]></item>
+		<item name="c4w.acp.index.minorUpdates"><![CDATA[Wichtige Updates]]></item>
+		<item name="c4w.acp.index.minorUpdates.description"><![CDATA[Es stehen derzeit folgende wichtige Updates zur Verfügung:]]></item>
+		<item name="c4w.acp.index.majorUpdates"><![CDATA[Optionale Updates]]></item>
+		<item name="c4w.acp.index.majorUpdates.description"><![CDATA[Es stehen derzeit folgende optionale Updates zur Verfügung:]]></item>
+		<item name="c4w.acp.index.updates.startUpdate"><![CDATA[Update jetzt durchführen]]></item>
+		<item name="c4w.acp.index.updates.update"><![CDATA[{$update.packageName}{if $update.instanceNo > 1} (#{$update.instanceNo}){/if} Version {$update.version.packageVersion}]]></item>
+		<item name="c4w.acp.index.news"><![CDATA[Nachrichten]]></item>
+		<item name="c4w.acp.index.system"><![CDATA[System]]></item>
+		<item name="c4w.acp.index.system.software"><![CDATA[Software]]></item>
+		<item name="c4w.acp.index.system.c4w.version"><![CDATA[Community4WCF (C4W) Version]]></item>
+		<item name="c4w.acp.index.system.installationDate"><![CDATA[Installationsdatum]]></item>
+		<item name="c4w.acp.index.system.wcf.version"><![CDATA[Community Framework&trade; Version]]></item>
+		<item name="c4w.acp.index.system.server"><![CDATA[Server]]></item>
+		<item name="c4w.acp.index.system.os"><![CDATA[Betriebssystem]]></item>
+		<item name="c4w.acp.index.system.webserver"><![CDATA[Webserver]]></item>
+		<item name="c4w.acp.index.system.php"><![CDATA[PHP Version]]></item>
+		<item name="c4w.acp.index.system.sql.type"><![CDATA[Datenbank]]></item>
+		<item name="c4w.acp.index.system.sql.version"><![CDATA[MySQL Version]]></item>
+		<item name="c4w.acp.index.system.cache"><![CDATA[Cache]]></item>
+		<item name="c4w.acp.index.system.load"><![CDATA[Aktueller UNIX Load]]></item>
+		<item name="c4w.acp.index.stat"><![CDATA[Statistik]]></item>
+		<item name="c4w.acp.index.stat.members"><![CDATA[Mitglieder]]></item>
+		<item name="c4w.acp.index.stat.usersOnline"><![CDATA[Benutzer online]]></item>
+		<item name="c4w.acp.index.stat.database.entries"><![CDATA[Datenbankeinträge]]></item>
+		<item name="c4w.acp.index.stat.database.size"><![CDATA[Datenbankgröße]]></item>
+		<item name="c4w.acp.index.credits"><![CDATA[Über Community4WCF (C4W)]]></item>
+		<item name="c4w.acp.index.credits.developedBy"><![CDATA[Software entwickelt von]]></item>
+		<item name="c4w.acp.index.credits.developedBy.description"><![CDATA[<a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"http://community4wcf.de"|rawurlencode}" class="externalURL">Community4WCF (C4W)</a>]]></item>
+		<item name="c4w.acp.index.credits.productManager"><![CDATA[Projektleitung]]></item>
+		<item name="c4w.acp.index.credits.productManager.description"><![CDATA[<a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"https://www.woltlab.com/forum/index.php?page=User&userID=1331470"|rawurlencode}" class="externalURL">Tobias H.</a>]]></item>
+		<item name="c4w.acp.index.credits.developer"><![CDATA[Programmierung]]></item>
+		<item name="c4w.acp.index.credits.developer.description"><![CDATA[Community4WCF Development Team]]></item>
+		<item name="c4w.acp.index.credits.designer"><![CDATA[Design]]></item>
+		<item name="c4w.acp.index.credits.designer.description"><![CDATA[Community4WCF Design Team]]></item>
+		<item name="c4w.acp.index.credits.icons"><![CDATA[Icons]]></item>
+		<item name="c4w.acp.index.credits.icons.description"><![CDATA[<a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"http://www.everaldo.com/crystal/"|rawurlencode}" class="externalURL">Everaldo: Crystal Project</a>]]></item>
+		<item name="c4w.acp.index.credits.other"><![CDATA[Sonstiges]]></item>
+		<item name="c4w.acp.index.credits.other.description"><![CDATA[Danksagungen:<br />* <a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"https://www.woltlab.com/"|rawurlencode}" class="externalURL">WoltLab GmbH</a> für das "WoltLab® Community Framework™" (WCF),<br />* <a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"https://www.woltlab.com/forum/index.php?page=User&userID=1334542"|rawurlencode}" class="externalURL">Marco D. (MaDa-Network)</a>,<br />* <a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"https://www.woltlab.com/forum/index.php?page=User&userID=5592"|rawurlencode}" class="externalURL">Sven K. (deixu)</a>,<br />* <a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"https://www.woltlab.com/forum/index.php?page=User&userID=1331223"|rawurlencode}" class="externalURL">Sebastian Ö.</a>,<br />* <a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"https://www.woltlab.com/forum/index.php?page=User&userID=29279"|rawurlencode}" class="externalURL">Jeanni S. (zwinkerli)</a>,<br />* <a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"https://www.woltlab.com/forum/index.php?page=User&userID=31494"|rawurlencode}" class="externalURL">Martin S. (Sani9000)</a>,<br />* <a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"https://www.woltlab.com/forum/index.php?page=User&userID=1339032"|rawurlencode}" class="externalURL">Christoph H. (Chrihis)</a>]]></item>
+		<item name="c4w.acp.index.credits.copyright"><![CDATA[]]></item>
+		<item name="c4w.acp.index.credits.copyright.description"><![CDATA[Copyright &copy; 2008-2012 Community4WCF (C4W)]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.show_version_number"><![CDATA[Versionsnummer von C4W im Copyright-Hinweis anzeigen]]></item>
+		<item name="wcf.acp.option.show_version_number.description"><![CDATA[Durch Aktivierung dieser Option wird die Versionsnummer im Copyright-Hinweis angezeigt.]]></item>
+		<item name="wcf.acp.option.show_style_chooser"><![CDATA[Stil-Auswahl anzeigen]]></item>
+		<item name="wcf.acp.option.show_style_chooser.description"><![CDATA[Soll im Fußteil der Seite eine Liste aller Stile zur Auswahl angezeigt werden?]]></item>
+		<item name="wcf.acp.option.category.offline.general"><![CDATA[C4W temporär deaktivieren]]></item>
+		<item name="wcf.acp.option.category.offline.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.offline"><![CDATA[C4W deaktivieren]]></item>
+		<item name="wcf.acp.option.offline.description"><![CDATA[Hier kann C4W vorübergehend deaktiviert werden (z.B. für Wartungsarbeiten).]]></item>
+		<item name="wcf.acp.option.offline_message"><![CDATA[Deaktivierungsnachricht]]></item>
+		<item name="wcf.acp.option.offline_message.description"><![CDATA[Eine Nachricht, die während der Deaktivierung von C4W angezeigt wird.]]></item>
+		<item name="wcf.acp.option.offline_message_allow_html"><![CDATA[HTML-Code in Deaktivierungsnachricht verwenden]]></item>
+		<item name="wcf.acp.option.offline_message_allow_html.description"><![CDATA[Durch Aktivierung dieser Option können Sie zur Formatierung des Textes auch HTML verwenden.]]></item>
+		<item name="wcf.acp.option.show_clock"><![CDATA[Aktuelle Uhrzeit im Fußbereich von C4W anzeigen]]></item>
+		<item name="wcf.acp.option.show_clock.description"><![CDATA[Soll die aktuelle Uhrzeit im Fußbereich von C4W angezeigt werden?]]></item>
+	
+		<item name="wcf.acp.option.category.c4w"><![CDATA[C4W]]></item>
+		<item name="wcf.acp.option.category.c4w.description"><![CDATA[Verwalten Sie C4W]]></item>
+		<item name="wcf.acp.option.category.c4w.index"><![CDATA[Startseite]]></item>
+		<item name="wcf.acp.option.category.c4w.index.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.c4w.index.general"><![CDATA[Allgemein]]></item>
+		<item name="wcf.acp.option.category.c4w.index.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.c4w.content"><![CDATA[Inhalt]]></item>
+		<item name="wcf.acp.option.category.c4w.content.description"><![CDATA[Hier können Sie den Inhalt der Startseite bestimmen.]]></item>
+		<item name="wcf.acp.option.category.c4w.content.redirect"><![CDATA[Weiterleitung]]></item>
+		<item name="wcf.acp.option.category.c4w.content.redirect.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_enable_stats"><![CDATA[Allgemeine Statistik anzeigen]]></item>
+		<item name="wcf.acp.option.index_enable_stats.description"><![CDATA[Soll eine allgemeine Statistik angezeigt werden?]]></item>
+		<item name="wcf.acp.option.index_enable_tags"><![CDATA[Tag-Wolke anzeigen]]></item>
+		<item name="wcf.acp.option.index_enable_tags.description"><![CDATA[Sollen die wichtigsten Tags (Schlagwörter) angezeigt werden, die von den Benutzern auf dieser Seite verwendet wurden?]]></item>
+		<item name="wcf.acp.option.c4w_text"><![CDATA[Inhalt der Startseite]]></item>
+		<item name="wcf.acp.option.c4w_text.description"><![CDATA[Geben sie hier den gewünschten Inhalt der Startseite ein.]]></item>
+		<item name="wcf.acp.option.c4w_enable_smiley"><![CDATA[Smilies verwenden]]></item>
+		<item name="wcf.acp.option.c4w_enable_smiley.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.c4w_enable_html"><![CDATA[HTML verwenden]]></item>
+		<item name="wcf.acp.option.c4w_enable_html.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.c4w_enable_bbcodes"><![CDATA[BBCodes verwenden]]></item>
+		<item name="wcf.acp.option.c4w_enable_bbcodes.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.c4w_redirect_enable"><![CDATA[Weiterleitung]]></item>
+		<item name="wcf.acp.option.c4w_redirect_enable.description"><![CDATA[Möchten Sie die Weiterleitung von der Startseite auf eine beliebige Seite aktivieren?]]></item>
+		<item name="wcf.acp.option.c4w_redirect"><![CDATA[URL oder Pfad für die Weiterleitung]]></item>
+		<item name="wcf.acp.option.c4w_redirect.description"><![CDATA[Geben Sie eine URL oder einen Pfad für die Weiterleitung an.]]></item>
+	</category>
+	
+	<category name="wcf.acp.group.option">
+		<item name="wcf.acp.group.option.category.user.c4w"><![CDATA[C4W]]></item>
+		<item name="wcf.acp.group.option.category.user.c4w.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.category.user.c4w.general"><![CDATA[Allgemein Rechte]]></item>
+		<item name="wcf.acp.group.option.category.user.c4w.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.c4w"><![CDATA[C4W]]></item>
+		<item name="wcf.acp.group.option.category.admin.content.c4w.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.c4w.canViewC4W"><![CDATA[Kann C4W sehen]]></item>
+		<item name="wcf.acp.group.option.user.c4w.canViewC4W.description"><![CDATA[Mitglieder dieser Benutzergruppe können die Startseite sehen.]]></item>
+		<item name="wcf.acp.group.option.user.c4w.canViewC4WOffline"><![CDATA[Kann C4W im Offline-Modus sehen]]></item>
+		<item name="wcf.acp.group.option.user.c4w.canViewC4WOffline.description"><![CDATA[Mitglieder dieser Benutzergruppe können C4W im Offline-Modus sehen.]]></item>
+		<item name="wcf.acp.group.option.admin.content.c4w.c4woption"><![CDATA[Kann C4W Optionen bearbeiten]]></item>
+		<item name="wcf.acp.group.option.admin.content.c4w.c4woption.description"><![CDATA[Mitglieder dieser Benutzergruppe können die C4W Optionen bearbeiten.]]></item>
+	</category>	
+	
+	<category name="c4w.global">
+		<item name="c4w.global.offline"><![CDATA[C4W befindet sich zur Zeit {if OFFLINE_MESSAGE != ''}aus folgenden Gründen im Wartungsmodus:{else}im Wartungsmodus.{/if}]]></item>
+		<item name="c4w.global.changeStyle"><![CDATA[Stil ändern]]></item>
+		<item name="c4w.global.copyright"><![CDATA[<a href="http://community4wcf.de">Software: <strong>C4W{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, entwickelt von <strong>Community4WCF (C4W)</strong></a>]]></item>
+	</category>
+	
+	<category name="c4w.index">
+		<item name="c4w.index.title"><![CDATA[Startseite]]></item>
+		<item name="c4w.index.stats"><![CDATA[Statistik]]></item>
+		<item name="c4w.index.stats.detail"><![CDATA[{#$stats.members} Mitglied{if $stats.members != 1}er{/if} - Unser neuestes Mitglied heißt: <a href="index.php?page=User&amp;userID={@$stats.newestMember->userID}{@SID_ARG_2ND}">{$stats.newestMember->username}</a>.]]></item>
+	</category>
+	
+	<category name="c4w.usersOnline">
+		<item name="c4w.usersOnline.location.index"><![CDATA[<a href="index.php{SID_ARG_1ST}">Startseite</a>]]></item>
+	</category>
+	
+	<category name="c4w.header">
+		<item name="c4w.header.userNote.guest"><![CDATA[Sie sind nicht angemeldet.]]></item>
+		<item name="c4w.header.userNote.user"><![CDATA[Angemeldet als <a href="index.php?page=User&amp;userID={@$this->user->userID}{@SID_ARG_2ND}">{$this->user->username}</a>.]]></item>
+		<item name="c4w.header.userMenu.login"><![CDATA[Anmelden]]></item>
+		<item name="c4w.header.login.useCookies"><![CDATA[Dauerhaft angemeldet bleiben?]]></item>
+		<item name="c4w.header.userMenu.logout"><![CDATA[Abmelden]]></item>
+		<item name="c4w.header.userMenu.register"><![CDATA[Registrieren]]></item>
+		<item name="c4w.header.userMenu.profile"><![CDATA[Profil bearbeiten]]></item>
+		<item name="c4w.header.userMenu.changeLanguage"><![CDATA[Sprache ändern]]></item>
+		<item name="c4w.header.userMenu.acp"><![CDATA[Administration]]></item>
+		<item name="c4w.header.menu.index"><![CDATA[Startseite]]></item>
+		<item name="c4w.header.search.extended"><![CDATA[Erweiterte Suche]]></item>
+		<item name="c4w.header.search.query"><![CDATA[Suchbegriffe eingeben]]></item>
+		<item name="c4w.header.welcomeBack"><![CDATA[Willkommen zurück, {$this->user->username}!]]></item>
+	</category>
+	
+	<category name="wcf.help.item">
+		<item name="wcf.help.item.c4w"><![CDATA[C4W]]></item>
+		<item name="wcf.help.item.c4w.description"><![CDATA[Kein Inhalt!]]></item>
+		<item name="wcf.help.item.c4w.general"><![CDATA[Allgemein]]></item>
+		<item name="wcf.help.item.c4w.general.description"><![CDATA[Kein Inhalt!]]></item>
+	</category>
+</language>

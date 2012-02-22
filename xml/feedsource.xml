@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: feedsource.xml 918 2010-02-15 01:36:40Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/feedsource.xsd">
+	<import>
+		<feedsource name="community4wcf-c4w-news">
+			<url><![CDATA[http://community4wcf.eu/forum/index.php?page=ThreadsFeed&format=rss2&boardID=2]]></url>
+			<cycle>86400</cycle>
+		</feedsource>
+		<feedsource name="community4wcf-c4w-portal-news">
+			<url><![CDATA[http://community4wcf.eu/index.php?page=NewsFeed&format=rss2]]></url>
+			<cycle>86400</cycle>
+		</feedsource>
+	</import>
+</data>

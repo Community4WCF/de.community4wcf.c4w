@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 927 2010-02-15 12:48:33Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="c4w.index.wwo">
+				<parent>c4w.index</parent>
+			</category>
+		</categories>
+		<options>
+			<option name="index_enable_wasonline_list">
+				<categoryname>c4w.index.wwo</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<enableoptions>index_limit_wasonline_list,index_wasonline_list_showpermanent,index_wasonline_list_hidetime</enableoptions>
+			</option>
+			<option name="index_limit_wasonline_list">
+				<categoryname>c4w.index.wwo</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<enableoptions>index_limit_wasonline_list_amount</enableoptions>
+			</option>
+			<option name="index_limit_wasonline_list_amount">
+				<categoryname>c4w.index.wwo</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>30</defaultvalue>
+			</option>
+			<option name="index_wasonline_list_showpermanent">
+				<categoryname>c4w.index.wwo</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="index_wasonline_list_hidetime">
+				<categoryname>c4w.index.wwo</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+
+			<option name="users_wasonline_record">
+				<categoryname>c4w.index.wwo</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>33</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+			<option name="users_wasonline_record_time">
+				<categoryname>c4w.index.wwo</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>1284413542</defaultvalue>
+				<hidden>1</hidden>
+			</option>
+		</options>
+	</import>
+</data>

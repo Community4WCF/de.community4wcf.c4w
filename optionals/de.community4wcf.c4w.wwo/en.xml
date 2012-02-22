@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1586 2010-08-27 15:03:46Z TobiasH87 $ -->
+<language languagecode="en" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd">
+	<category name="c4w.index">
+		<item name="c4w.index.usersWasOnline"><![CDATA[Who was online today?]]></item>
+		<item name="c4w.index.usersWasOnline.detail"><![CDATA[{if $usersWasOnlineMembers > 0}
+	Today {if $usersWasOnlineMembers != 1}were{/if} was {#$usersWasOnlineMembers} member
+{/if} 
+{if $usersWasOnlineInvisible > 0}
+	({#$usersWasOnlineInvisible} thereof are invisible)
+{/if}
+{* at this moment there is no way to show guests who was online correctly
+{if $usersWasOnlineGuests > 0 && $usersWasOnlineMembers > 0}and{/if}
+{if $usersWasOnlineGuests > 0}
+	{#$usersWasOnlineGuests} Guest{if $usersWasOnlineGuests != 1}s{/if}
+{/if}
+*}
+online]]></item>
+		<item name="c4w.index.usersWasOnline.limitedlist"><![CDATA[{if $usersWasOnlineMembers != 1}The last {if $usersWasOnlineMembers < INDEX_LIMIT_WASONLINE_LIST_AMOUNT}{#$usersWasOnlineMembers}{else}{#INDEX_LIMIT_WASONLINE_LIST_AMOUNT}{/if} were: {/if}]]></item>
+		<item name="c4w.index.usersWasOnline.record"><![CDATA[{if USERS_WASONLINE_RECORD > 0}- Record: {#USERS_WASONLINE_RECORD} member ({@USERS_WASONLINE_RECORD_TIME|date}){/if}]]></item>
+		<item name="c4w.index.usersWasOnline.sortByName"><![CDATA[Sort by Name]]></item>
+		<item name="c4w.index.usersWasOnline.sortByTime"><![CDATA[Sort by last activity]]></item>
+	</category>
+	<category name="wbb.index"> <!-- compromise solution -->
+		<item name="wbb.index.usersWasOnline.invisible"><![CDATA[ (invisible)]]></item>
+	</category>
+	<!--
+	<category name="wcf.usersWasOnline">
+		<item name="wcf.usersWasOnline.invisible"><![CDATA[ (unsichtbar)]]></item>
+	</category>
+	-->
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.c4w.canSeeWWO"><![CDATA[Can see the "Who was online"-list]]></item>
+		<item name="wcf.acp.group.option.user.c4w.canSeeWWO.description"><![CDATA[Members of this user group can see the "Who was online"-list.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.c4w.index.wwo"><![CDATA["Wer war online"-Liste]]></item>
+		<item name="wcf.acp.option.category.c4w.index.wwo.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_enable_wasonline_list"><![CDATA[Show "Who was online"-list]]></item>
+		<item name="wcf.acp.option.index_enable_wasonline_list.description"><![CDATA[Should the users that was online a day be listed in a box?]]></item>
+		<item name="wcf.acp.option.index_limit_wasonline_list"><![CDATA[Limit "Who was online"-list]]></item>
+		<item name="wcf.acp.option.index_limit_wasonline_list.description"><![CDATA[Should the "Who was online"-list be limited to show only a given amount of users?]]></item>
+		<item name="wcf.acp.option.index_limit_wasonline_list_amount"><![CDATA[Amount of listed users]]></item>
+		<item name="wcf.acp.option.index_limit_wasonline_list_amount.description"><![CDATA[How many users should be listed in the "Who was online"-list?]]></item>
+		<item name="wcf.acp.option.index_wasonline_list_showpermanent"><![CDATA["Who was online"-list ever opened]]></item>
+		<item name="wcf.acp.option.index_wasonline_list_showpermanent.description"><![CDATA[Should the "Who was online"-list ever be opened?<br /><span style="color: red;">Attention: If you have a large amount of Users a day and you don't limit the list it can be a very large list.</span>]]></item>
+		<item name="wcf.acp.option.index_wasonline_list_hidetime"><![CDATA[Hide last activity]]></item>
+		<item name="wcf.acp.option.index_wasonline_list_hidetime.description"><![CDATA[Should the last activity behind the Nicknames be hidden?]]></item>
+	</category>
+</language>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1841 2012-02-03 18:22:52Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.box">
+		<item name="wcf.box.position.bottom"><![CDATA[Under the contents]]></item>
+		<item name="wcf.box.position.indexBottom"><![CDATA[Under the contents on Mainpage]]></item>
+		<item name="wcf.box.position.indexTop"><![CDATA[Over the contents on Mainpage]]></item>
+		<item name="wcf.box.position.left"><![CDATA[Left of the contents]]></item>
+		<item name="wcf.box.position.right"><![CDATA[Right of the contents]]></item>
+		<item name="wcf.box.position.top"><![CDATA[Over the contents]]></item>
+		<item name="wcf.box.position.userMessages"><![CDATA[User-Notification]]></item>
+	</category>
+</language>

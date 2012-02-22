@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de.xml 1668 2011-01-09 18:37:34Z TobiasH87 $ -->
+<language languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.c4w.index.statsowninfo"><![CDATA[Zusätzliche "Box"]]></item>
+		<item name="wcf.acp.option.category.c4w.index.statsowninfo.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable"><![CDATA[Zusätzliche "Box" anzeigen]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable.description"><![CDATA[Soll eine zusätzliche "Box" bei der Statistik angezeigt werden?]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_icon"><![CDATA[Icon]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_icon.description"><![CDATA[Geben Sie hier den Namen des Icon es, dieses muss im png- Format im Icon- Verzeichnis (der c4w) liegen. Beispiel: Für infoM.png geben Sie info ein.]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_title"><![CDATA[Titel]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_title.description"><![CDATA[Geben Sie hier den Titel der "Box" ein, z.B. Informationen. Das Verwenden einer Sprachvariable ist möglich, z.B. c4w.index.statsowninfo.title .]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_content"><![CDATA[Inhalt]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_content.description"><![CDATA[Hier können Sie den Inhalt der "Box" bestimmen. Das Verwenden einer Sprachvariable ist möglich, z.B. c4w.index.statsowninfo.content .]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_smiley"><![CDATA[Smilies verwenden]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_smiley.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_html"><![CDATA[HTML verwenden]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_html.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_bbcodes"><![CDATA[BBCodes verwenden]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_enable_bbcodes.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_link_enable"><![CDATA[Link aktivieren?]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_link_enable.description"><![CDATA[Wollen Sie den Titel der Zusätzlichen "Box" z.B. zu weiteren Informationen verlinken?, dann aktivieren Sie diese Option.]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_link"><![CDATA[Link]]></item>
+		<item name="wcf.acp.option.index_statsowninfo_link.description"><![CDATA[Hier Ihren gewünschten Link eingeben, z.B. index.php?page=Help oder index.php?page=Partner]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.c4w.canViewStatsOwnInfo"><![CDATA[Kann zusätzliche "Box" sehen]]></item>
+		<item name="wcf.acp.group.option.user.c4w.canViewStatsOwnInfo.description"><![CDATA[]]></item>
+	</category>
+	<category name="c4w.index">
+		<item name="c4w.index.statsowninfo.title"><![CDATA[Informationen:]]></item>
+		<item name="c4w.index.statsowninfo.content"><![CDATA[Aktuell sind keine Informationen in Ihrer Sprache vorhanden!]]></item>
+	</category>
+</language>

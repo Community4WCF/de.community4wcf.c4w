@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: eventlistener.xml 1300 2010-04-25 12:48:14Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<eventlistener>
+			<eventclassname>IndexPage</eventclassname>
+			<eventname>assignVariables</eventname>
+			<listenerclassfile>lib/system/event/listener/C4WStatsOwnInfoListener.class.php</listenerclassfile>
+		</eventlistener>
+	</import>
+</data>

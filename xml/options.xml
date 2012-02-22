@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 927 2010-02-15 12:48:33Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="offline.general">
+				<parent>general.offline</parent>
+			</category>
+			<category name="c4w">
+				<!-- <permissions>admin.content.c4w.c4woption</permissions> -->
+			</category>
+			<category name="c4w.index">
+				<parent>c4w</parent>
+			</category>
+			<category name="c4w.index.general">
+				<parent>c4w.index</parent>
+			</category>
+			<category name="c4w.content">
+				<parent>c4w</parent>
+			</category>
+			<category name="c4w.content.redirect">
+				<parent>c4w.content</parent>
+			</category>
+		</categories>
+		<options>			
+			<!-- offline -->
+			<option name="offline">
+				<categoryname>offline.general</categoryname>
+				<optiontype>boolean</optiontype>
+			 	<enableoptions><![CDATA[offline_message,offline_message_allow_html]]></enableoptions>
+			</option>
+			<option name="offline_message">
+				<categoryname>offline.general</categoryname>
+				<optiontype>textarea</optiontype>
+			</option>
+			<option name="offline_message_allow_html">
+				<categoryname>offline.general</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+			<!-- /offline -->
+			<!-- general.page -->
+			<option name="page_title">
+				<categoryname>general.page</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>1</showorder>
+				<defaultvalue><![CDATA[Community4WCF (C4W)]]></defaultvalue>
+			</option>
+			<option name="page_description">
+				<categoryname>general.page</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>2</showorder>
+				<defaultvalue><![CDATA[Standalone Application]]></defaultvalue>
+			</option>
+			<option name="page_url">
+				<categoryname>general.page</categoryname>
+				<optiontype>text</optiontype>
+				<showorder>3</showorder>
+			</option>
+			<option name="page_urls">
+				<categoryname>general.page</categoryname>
+				<optiontype>textarea</optiontype>
+				<showorder>4</showorder>
+			</option>
+			<option name="show_version_number">
+				<categoryname>general.page</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="show_style_chooser">
+				<categoryname>general.page</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /general.page -->
+			<!-- general.cookie -->
+			<option name="cookie_path">
+				<categoryname>general.http.cookie</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue></defaultvalue>
+			</option>
+			<!-- /general.cookie-->
+			<!-- index.general -->
+			<option name="index_enable_stats">
+				<categoryname>c4w.index.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<option name="index_enable_tags">
+				<categoryname>c4w.index.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_tagging</options>
+			</option>
+			<!-- /index.general -->
+			<!-- general -->
+			<option name="install_date">
+				<categoryname>general</categoryname>
+				<optiontype>integer</optiontype>
+				<hidden>1</hidden>
+			</option>
+			<!-- /general -->
+			<!-- general.date -->
+			<option name="show_clock">
+				<categoryname>general.date</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- /general.date -->
+			<!-- user.membersList -->
+			<option name="members_list_columns">
+				<categoryname>user.membersList</categoryname>
+				<optiontype>memberslistcolumns</optiontype>
+				<defaultvalue><![CDATA[username,avatar,email,homepage,registrationDate]]></defaultvalue>
+				<options>module_members_list</options>
+			</option>
+			<option name="members_list_default_sort_field">
+				<categoryname>user.membersList</categoryname>
+				<optiontype>memberslistsortfield</optiontype>
+				<defaultvalue><![CDATA[username]]></defaultvalue>
+				<options>module_members_list</options>
+			</option>
+			<option name="members_list_default_sort_order">
+				<categoryname>user.membersList</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue><![CDATA[ASC]]></defaultvalue>
+				<selectoptions><![CDATA[ASC:wcf.global.sortOrder.ascending
+DESC:wcf.global.sortOrder.descending]]></selectoptions>
+				<options>module_members_list</options>
+			</option>
+			<!-- /user.membersList -->
+			<!-- content -->
+			<option name="c4w_text">
+				<categoryname>c4w.content</categoryname>
+				<optiontype>textarea</optiontype>
+				<defaultvalue><![CDATA[Main Page]]></defaultvalue>
+				<showorder>1</showorder>
+			</option>
+			<option name="c4w_enable_smiley">
+				<categoryname>c4w.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>2</showorder>
+				<options>module_smiley</options>
+			</option>
+			<option name="c4w_enable_html">
+				<categoryname>c4w.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+			<option name="c4w_enable_bbcodes">
+				<categoryname>c4w.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>4</showorder>
+			</option>
+			<!-- /content -->
+			<!-- redirect -->
+			<option name="c4w_redirect_enable">
+				<categoryname>c4w.content.redirect</categoryname>
+				<optiontype>boolean</optiontype>
+				<showorder>1</showorder>
+				<enableoptions><![CDATA[c4w_redirect]]></enableoptions>
+			</option>
+			<option name="c4w_redirect">
+				<categoryname>c4w.content.redirect</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue><![CDATA[http://]]></defaultvalue>
+				<showorder>2</showorder>
+			</option>
+			<!-- /redirect -->
+		</options>
+	</import>
+</data>

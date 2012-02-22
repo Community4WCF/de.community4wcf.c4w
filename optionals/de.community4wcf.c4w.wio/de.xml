@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de.xml 1495 2010-07-19 11:53:50Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.wio">
+		<item name="wcf.wio.title"><![CDATA[Wer ist online?]]></item>
+		<item name="wcf.wio.username"><![CDATA[Username]]></item>
+		<item name="wcf.wio.ipAddress"><![CDATA[IP Adresse]]></item>
+		<item name="wcf.wio.userAgent"><![CDATA[Browsertyp]]></item>
+		<item name="wcf.wio.lastActivity"><![CDATA[Letzte Aktivität]]></item>
+		<item name="wcf.wio.invisible"><![CDATA[ (unsichtbar)]]></item>
+		<item name="wcf.wio.members"><![CDATA[Mitglieder online:]]></item>
+		<item name="wcf.wio.member"><![CDATA[Mitglied online:]]></item>		
+		<item name="wcf.wio.guest"><![CDATA[Gast]]></item>
+		<item name="wcf.wio.guests"><![CDATA[Gäste]]></item>
+		<item name="wcf.wio.and"><![CDATA[und]]></item>
+		<item name="wcf.wio.online"><![CDATA[online]]></item>
+		<item name="wcf.wio.noRegisteredOnline"><![CDATA[Derzeit ist kein registriertes Mitglied online.]]></item>
+		<item name="wcf.wio.nobodyOnline"><![CDATA[Derzeit ist niemand online.]]></item>
+		<item name="wcf.wio.nobodyOnlineHeader"><![CDATA[Mitglieder online:]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.wio.canSeeWio"><![CDATA[Kann "Wer ist Online" sehen]]></item>
+		<item name="wcf.acp.group.option.user.wio.canSeeWio.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.admin.general.showIpAddress"><![CDATA[Kann erweiterte WIO-Informationen sehen]]></item>
+		<item name="wcf.acp.group.option.admin.general.showIpAddress.description"><![CDATA[User in dieser Gruppe können IP-Adressen und Browserkennung in der "Wer ist Online-Liste" sehen.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_wio"><![CDATA["Wer ist online" aktivieren]]></item>
+		<item name="wcf.acp.option.module_wio.description"><![CDATA[Aktivieren Sie diese Option, um die "Wer ist Online"-Funktionalität grundlegend zu aktivieren.]]></item>
+		<item name="wcf.acp.option.category.c4w.index.wio"><![CDATA[Wer ist Online]]></item>
+		<item name="wcf.acp.option.category.c4w.index.wio.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.wio_active"><![CDATA["Wer ist Online" Link auf der Startseite anzeigen]]></item>
+		<item name="wcf.acp.option.wio_active.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.wio_open_popup"><![CDATA["Wer ist Online" Liste als Popup-Fenster]]></item>
+		<item name="wcf.acp.option.wio_open_popup.description"><![CDATA[Ist diese Option aktiviert, wird die Wer ist online-Liste als Popupfenster geöffnet, anderenfalls wird die Seite statisch im selben Fenster geöffnet.]]></item>
+		<item name="wcf.acp.option.wio_refresh"><![CDATA[Seite automatisch neu laden]]></item>
+		<item name="wcf.acp.option.wio_refresh.description"><![CDATA[Geben Sie an, nach wieviel Sekunden die Liste im Browser des Betrachters neu geladen werden soll. (Geben Sie 0 ein um die Seite nicht automatisch neu zu laden.)]]></item>
+	</category>
+</language>

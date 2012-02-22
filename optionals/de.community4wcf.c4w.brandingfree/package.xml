@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 1847 2012-02-05 00:10:48Z TobiasH87 $ -->
+<package name="de.community4wcf.c4w.brandingfree">
+	<packageinformation>
+		<packagename><![CDATA[C4W - BrandingFree License]]></packagename>
+		<packagename language="de"><![CDATA[C4W - BrandingFree License]]></packagename>
+		<packagename language="de-informal"><![CDATA[C4W - BrandingFree License]]]></packagename>
+		<packagedescription><![CDATA[C4W-Page BrandingFree]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Mit Hilfe dieses Plugins wird das sichtbare Copyright aus Ihrer C4W Installation entfernt. Beachten Sie, dass Sie hierfür eine BrandingFree-Lizenz benötigen, diese erhalten Sie auf der Projektseite!]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Mit Hilfe dieses Plugins wird das sichtbare Copyright aus deiner C4W Installation entfernt. Beachte, dass du hierfür eine BrandingFree-Lizenz benötigst, diese erhalst du auf der Projektseite!]]></packagedescription>
+		<version>2.0.0</version> <!-- codename: C4W - BrandingFree License -->
+		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
+		<date>2012-02-03</date>
+		<isunique>0</isunique>
+		<plugin>de.community4wcf.c4w</plugin>
+	</packageinformation>
+	
+	<licenseinformation>
+		<license><![CDATA[Exclusive]]></license>
+		<licenseURL><![CDATA[]]></licenseURL>
+	</licenseinformation>
+	<authorinformation>
+		<author><![CDATA[TobiasH]]></author>
+		<authorURL><![CDATA[https://www.woltlab.com/forum/index.php?page=User&userID=1331470]]></authorURL>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.2">de.community4wcf.c4w</requiredpackage>
+		<requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<script>acp/c4wBrandingFreeInstall.php</script>
+		<!-- config -->
+		<options>options.xml</options>
+	</instructions>
+	<instructions type="update" fromversion="2.0.*">
+		<!-- config -->
+		<options>options.xml</options>
+	</instructions>
+</package>

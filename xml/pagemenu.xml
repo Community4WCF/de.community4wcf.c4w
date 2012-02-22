@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: pagemenu.xml 919 2010-02-15 11:08:31Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/page-menu.xsd">
+	<import>
+		<pagemenuitem name="c4w.header.menu.index">
+			<iconmedium>indexM.png</iconmedium>
+			<iconsmall>indexS.png</iconsmall>
+			<position>header</position>
+			<link>index.php?page=Index</link>
+			<!-- <permissions>user.c4w.canViewC4W</permissions> -->
+			<showorder>1</showorder>
+		</pagemenuitem>
+	</import>
+</data>

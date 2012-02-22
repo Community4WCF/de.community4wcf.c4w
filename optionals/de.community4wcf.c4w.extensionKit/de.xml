@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de.xml 1840 2012-02-03 12:52:15Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.index_enable_online_list"><![CDATA[Benutzer-Online-Liste anzeigen]]></item>
+		<item name="wcf.acp.option.index_enable_online_list.description"><![CDATA[Sollen die Benutzer angezeigt werden, die gerade in der gesamten Filebase aktiv sind?]]></item>
+		<item name="wcf.acp.option.users_online_record_no_guests"><![CDATA[Nur registrierte Benutzer im Benutzer-Online-Rekord zählen]]></item>
+		<item name="wcf.acp.option.users_online_record_no_guests.description"><![CDATA[Sollen bei der Ermittelung des Benutzer-Online-Rekords ausschließlich registrierte Benutzer gezählt werden?]]></item>
+		<item name="wcf.acp.option.index_enable_users_online_legend"><![CDATA[Legende der Benutzergruppen unter der Benutzer-Online-Liste anzeigen]]></item>
+		<item name="wcf.acp.option.index_enable_users_online_legend.description"><![CDATA[Soll unter der Benutzer-Online-Liste eine Legende zu den Benutzergruppen angezeigt werden, sofern für diese eine spezielle Formatierung eingestellt wurde?]]></item>
+	</category>
+	<category name="c4w.global">
+		<item name="c4w.global.extensionKit.copyright"><![CDATA[<a href="http://www.woltlab.com/de/">Basis: <strong>Community Framework&trade;{if SHOW_VERSION_NUMBER} {@WCF_VERSION}{/if}</strong>, entwickelt von <strong>WoltLab&reg; GmbH</strong></a>]]></item>
+	</category>
+	<category name="c4w.header">
+		<item name="c4w.header.userMenu.pm"><![CDATA[Private Nachrichten]]></item>
+		<item name="c4w.header.userMenu.userGroupLeader"><![CDATA[Gruppenleitung]]></item>
+	</category>
+	<category name="c4w.pm">
+		<item name="c4w.pm.notification.report"><![CDATA[Sie haben {#$outstandingNotifications|count} ungelesene private Nachricht{if $outstandingNotifications|count > 1}en{/if}:]]></item>
+	</category>
+	<category name="c4w.index">
+		<item name="c4w.index.usersOnline"><![CDATA[Zur Zeit {if $usersOnlineTotal == 1}ist{else}sind{/if} {#$usersOnlineTotal} Benutzer online:]]></item>
+		<item name="c4w.index.usersOnline.detail"><![CDATA[{if $usersOnlineMembers > 0}{#$usersOnlineMembers} Mitglied{if $usersOnlineMembers != 1}er{/if}{/if}{if $usersOnlineInvisible > 0} (davon {#$usersOnlineInvisible} unsichtbar){/if}{if $usersOnlineGuests > 0 && $usersOnlineMembers > 0} und{/if}{if $usersOnlineGuests > 0} {#$usersOnlineGuests} Besucher{/if}]]></item>
+		<item name="c4w.index.usersOnline.record"><![CDATA[{if USERS_ONLINE_RECORD > 0}- Rekord: {#USERS_ONLINE_RECORD} Benutzer ({@USERS_ONLINE_RECORD_TIME|time}){/if}]]></item>
+	</category>
+</language>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de-informal.xml 1752 2011-02-08 23:55:48Z TobiasH87 $ -->
+<language languagecode="de-informal" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd">
+	<category name="c4w.index">
+		<item name="c4w.index.usersWasOnline"><![CDATA[Wer war heute online?]]></item>
+		<item name="c4w.index.usersWasOnline.detail"><![CDATA[{if $usersWasOnlineMembers > 0}
+	Heute war{if $usersWasOnlineMembers != 1}en{/if} bisher {#$usersWasOnlineMembers} Mitglied{if $usersWasOnlineMembers != 1}er{/if}
+{/if} 
+{if $usersWasOnlineInvisible > 0}
+	(davon {#$usersWasOnlineInvisible} unsichtbar)
+{/if}
+{* at this moment there is no way to show guests who was online correctly
+{if $usersWasOnlineGuests > 0 && $usersWasOnlineMembers > 0}und{/if}
+{if $usersWasOnlineGuests > 0}
+	{#$usersWasOnlineGuests} Besucher
+{/if}
+*}
+online]]></item>
+		<item name="c4w.index.usersWasOnline.limitedlist"><![CDATA[{if $usersWasOnlineMembers != 1}Die letzten {if $usersWasOnlineMembers < INDEX_LIMIT_WASONLINE_LIST_AMOUNT}{#$usersWasOnlineMembers}{else}{#INDEX_LIMIT_WASONLINE_LIST_AMOUNT}{/if} waren: {/if}]]></item>
+		<item name="c4w.index.usersWasOnline.record"><![CDATA[{if USERS_WASONLINE_RECORD > 0}- Rekord: {#USERS_WASONLINE_RECORD} Mitglied{if USERS_WASONLINE_RECORD > 1}er{/if} ({@USERS_WASONLINE_RECORD_TIME|date}){/if}]]></item>
+		<item name="c4w.index.usersWasOnline.sortByName"><![CDATA[Nach Namen sortieren]]></item>
+		<item name="c4w.index.usersWasOnline.sortByTime"><![CDATA[Nach letzter Aktivität sortieren]]></item>
+	</category>
+	<category name="wbb.index"> <!-- compromise solution -->
+		<item name="wbb.index.usersWasOnline.invisible"><![CDATA[ (unsichtbar)]]></item>
+	</category>
+	<!--
+	<category name="wcf.usersWasOnline">
+		<item name="wcf.usersWasOnline.invisible"><![CDATA[ (unsichtbar)]]></item>
+	</category>
+	-->
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.c4w.canSeeWWO"><![CDATA[Kann "Wer war online"-Liste sehen]]></item>
+		<item name="wcf.acp.group.option.user.c4w.canSeeWWO.description"><![CDATA[Mitglieder dieser Benutzergruppe können die "Wer war online"-Liste sehen.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.c4w.index.wwo"><![CDATA["Wer war online"-Liste]]></item>
+		<item name="wcf.acp.option.category.c4w.index.wwo.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_enable_wasonline_list"><![CDATA["Wer war online"-Liste anzeigen]]></item>
+		<item name="wcf.acp.option.index_enable_wasonline_list.description"><![CDATA[Soll auf der Startseite eine Liste der Benutzer angezeigt werden, welche innerhalb des aktuellen Tages online waren?]]></item>
+		<item name="wcf.acp.option.index_limit_wasonline_list"><![CDATA["Wer war online"-Liste begrenzen]]></item>
+		<item name="wcf.acp.option.index_limit_wasonline_list.description"><![CDATA[Soll nur eine festgelegte Anzahl an Benutzern in der "Wer war online"-Liste angezeigt werden?]]></item>
+		<item name="wcf.acp.option.index_limit_wasonline_list_amount"><![CDATA[Anzahl anzuzeigender Benutzer]]></item>
+		<item name="wcf.acp.option.index_limit_wasonline_list_amount.description"><![CDATA[Wieviele Benutzer sollen in der "Wer war online"-Liste angezeigt werden?]]></item>
+		<item name="wcf.acp.option.index_wasonline_list_showpermanent"><![CDATA["Wer war online"-Liste immer ausgeklappt]]></item>
+		<item name="wcf.acp.option.index_wasonline_list_showpermanent.description"><![CDATA[Soll die "Wer war online"-Liste nicht per JavaScript "eingeklappt" werden?<br /><span style="color:red;">Achtung: Bei einem hohem täglichen Useraufkommen kann eine sehr große Liste enstehen.</span>]]></item>
+		<item name="wcf.acp.option.index_wasonline_list_hidetime"><![CDATA[Uhrzeit hinter den Namen ausblenden]]></item>
+		<item name="wcf.acp.option.index_wasonline_list_hidetime.description"><![CDATA[Soll die Uhrzeit der letzten Aktivität hinter den Nicknamen ausgeblendet werden?]]></item>
+	</category>
+</language>

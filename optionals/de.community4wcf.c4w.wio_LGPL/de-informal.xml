@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de-informal.xml 1385 2010-05-09 15:41:53Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de-informal">
+	<category name="wcf.wio">
+		<item name="wcf.wio.title"><![CDATA[Wer ist online?]]></item>
+		<item name="wcf.wio.username"><![CDATA[Username]]></item>
+		<item name="wcf.wio.ipAddress"><![CDATA[IP Adresse]]></item>
+		<item name="wcf.wio.userAgent"><![CDATA[Browsertyp]]></item>
+		<item name="wcf.wio.lastActivity"><![CDATA[Letzte Aktivität]]></item>
+		<item name="wcf.wio.invisible"><![CDATA[ (unsichtbar)]]></item>
+		<item name="wcf.wio.members"><![CDATA[Mitglieder online:]]></item>
+		<item name="wcf.wio.member"><![CDATA[Mitglied online:]]></item>			
+		<item name="wcf.wio.nobodyOnline"><![CDATA[Derzeit ist kein registriertes Mitglied online.]]></item>
+		<item name="wcf.wio.nobodyOnlineHeader"><![CDATA[Mitglieder online:]]></item>
+		<item name="wcf.wio.poweredBy"><![CDATA[<a href="http://community.woltlab.com" style="font-size: x-small; text-decoration: none;"><strong>Onlineliste</strong>, entwickelt von <strong>WoltLab&reg; Community</strong></a>]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.wio.canSeeWio"><![CDATA[Kann "Wer ist Online" sehen]]></item>
+		<item name="wcf.acp.group.option.user.wio.canSeeWio.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.admin.general.wio.showIpAddress"><![CDATA[Kann erweiterte WIO-Informationen sehen]]></item>
+		<item name="wcf.acp.group.option.admin.general.wio.showIpAddress.description"><![CDATA[User in dieser Gruppe können IP-Adressen und Browserkennung in der "Wer ist Online-Liste" sehen.]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.c4w.index.wio"><![CDATA[Wer ist Online]]></item>
+		<item name="wcf.acp.option.category.c4w.index.wio.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.wio_active"><![CDATA["Wer ist Online" Link auf der Startseite anzeigen]]></item>
+		<item name="wcf.acp.option.wio_active.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.wio_open_popup"><![CDATA["Wer ist Online" Liste als Popup-Fenster]]></item>
+		<item name="wcf.acp.option.wio_open_popup.description"><![CDATA[Ist diese Option aktiviert, wird die Wer ist online-Liste als Popupfenster geöffnet, anderenfalls wird die Seite statisch im selben Fenster geöffnet]]></item>
+		<item name="wcf.acp.option.wio_refresh"><![CDATA[Seite automatisch neu laden]]></item>
+		<item name="wcf.acp.option.wio_refresh.description"><![CDATA[Gib an, nach wieviel Sekunden die Liste im Browser des Betrachters neu geladen werden soll. (Gib 0 ein um die Seite nicht automatisch neu zu laden.)]]></item>
+		<item name="wcf.acp.option.wio_brandingfree"><![CDATA[Copyright ausblenden?]]></item>
+		<item name="wcf.acp.option.wio_brandingfree.description"><![CDATA[]]></item>
+	</category>
+</language>

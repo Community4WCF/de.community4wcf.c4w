@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<package name="de.community4wcf.c4w.box" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Box-System for C4W]]></packagename>
+		<packagename language="de"><![CDATA[Boxen-System für C4W]]></packagename>
+		<packagename language="de-informal"><![CDATA[Boxen-System für C4W]]></packagename>
+		<packagedescription><![CDATA[]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Integriert das Boxen-System in die C4W-EA. ACHTUNG: Bei den meisten Stilen sind Anpassungen notwendig! Verwenden Sie dieses Paket nur, wenn Sie sich dessen bewusst sind!]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Integriert das Boxen-System in die C4W-EA. ACHTUNG: Bei den meisten Stilen sind Anpassungen notwendig! Verwenden Sie dieses Paket nur, wenn Sie sich dessen bewusst sind!]]></packagedescription>
+		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
+		<plugin>de.community4wcf.c4w</plugin>
+		<version>1.1.0</version>  <!-- codename: C4W Boxen-System -->
+		<isunique>0</isunique>
+		<date>2012-02-03</date>
+	</packageinformation>
+	
+	<licenseinformation>
+		<license><![CDATA[LGPL]]></license>
+		<licenseURL><![CDATA[http://www.gnu.org/licenses/lgpl.html]]></licenseURL>
+	</licenseinformation>
+	<authorinformation>
+		<author><![CDATA[WCF Solutions and Community4WCF]]></author>
+		<authorURL><![CDATA[http://www.wcfsolutions.com]]></authorURL>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="1.1.8">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.2">de.community4wcf.c4w</requiredpackage>
+		<requiredpackage minversion="1.1.2 pl 1" file="requirements/com.wcfsolutions.wcf.data.box.tar">com.wcfsolutions.wcf.data.box</requiredpackage>
+		<requiredpackage minversion="1.1.0" file="requirements/com.wcfsolutions.wcf.data.navigation.tar">com.wcfsolutions.wcf.data.navigation</requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage>com.wcfsolutions.c4w.box</excludedpackage>
+	</excludedpackages>
+	
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<script>acp/install_box.php</script>
+		<!-- config -->
+		<eventlistener>eventlistener.xml</eventlistener>
+		<boxposition>boxposition.xml</boxposition>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.1.0 Beta *">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<eventlistener>eventlistener.xml</eventlistener>
+		<boxposition>boxposition.xml</boxposition>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.0.*">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<eventlistener>eventlistener.xml</eventlistener>
+		<boxposition>boxposition.xml</boxposition>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+</package>

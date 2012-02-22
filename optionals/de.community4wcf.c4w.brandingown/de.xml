@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de.xml 1847 2012-02-05 00:10:48Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<category name="c4w.global">
+		<item name="c4w.global.brandingown.copyright"><![CDATA[Copyright &copy; {lang}{PAGE_TITLE}{/lang}]]></item>
+	</category>
+</language>

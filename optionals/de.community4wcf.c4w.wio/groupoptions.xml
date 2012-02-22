@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: groupoptions.xml 1494 2010-07-19 11:45:58Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<options>
+			<option name="user.wio.canSeeWio">
+				<categoryname>user.c4w.general</categoryname>
+				<options>module_wio</options>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="admin.general.showIpAddress">
+				<categoryname>admin.general</categoryname>
+				<options>module_wio</options>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>

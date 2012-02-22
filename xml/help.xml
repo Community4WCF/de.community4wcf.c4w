@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: help.xml 919 2010-02-15 11:08:31Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/help.xsd">
+	<import>
+		<helpitem name="c4w">
+			<showorder>6</showorder>
+			<refererpattern><![CDATA[(?:index\.php\?page=Index.*|index\.php(?!(?:\?|&)(?:page|action|form)=).*|/)$]]></refererpattern>
+			<!-- <permissions>user.c4w.canViewC4W</permissions> -->
+		</helpitem>
+		<helpitem name="c4w.general">
+			<parent>c4w</parent>
+			<showorder>1</showorder>
+		</helpitem>
+	</import>
+</data>
